@@ -98,7 +98,7 @@ namespace fireled
         /* Update the FireLeds to match the buffer */
         updateBand()
         {
-            sendBuffer(this.ledBuffer, this.ledPin);
+            fireled.sendBuffer(this.ledBuffer, this.ledPin);
         }
 
     }
